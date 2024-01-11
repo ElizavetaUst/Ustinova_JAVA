@@ -1,19 +1,21 @@
 1. Составить алгоритм: если введенное число больше 7, то вывести “Привет”.
+
    Решение:
    
-   package org.example;
+  package org.example;
 
 import java.util.Scanner;
 
 public class Main {
-  public static void main(String[] args) {
-      Scanner sc = new Scanner(System.in);
-      System.out.println("Введите число: ");
-      int number = sc.nextInt();
-      if (number > 7) {
-          System.out.println("Привет");
-      }
-  }
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Введите число: ");
+        int number = sc.nextInt();
+        if (number > 7) {
+            System.out.println("Привет");
+        }
+    }
 }
 
 2. Составить алгоритм: если введенное имя совпадает с Вячеслав, то вывести “Привет, Вячеслав”, если нет, то вывести "Нет такого имени".
